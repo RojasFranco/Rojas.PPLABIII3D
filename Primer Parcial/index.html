@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franco Rojas</title>
+    <link rel="stylesheet" href="./css/miEstilo.css">
+    <script src="./js/miScript.js" defer type="module"></script>
+</head>
+<body>
+    <header> 
+        <div><img id="imgHeader" src="./imagenes/header.jpg" alt=""></div>   
+        <nav class="navHeader">
+            <div class="enlacesHeader">                
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./anuncios.html">Anuncios</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>             
+        </nav>     
+    </header>
+    <br>
+    <main>
+        <h1>Administracion</h1>
+        <img src="./imagenes/ppal.jpg" alt="" id="imgPpal">
+    </main>
+    <br>
+    <section>
+        <fieldset id="fieldset">
+            <legend>Informacion Del Anuncio</legend>
+            <form action="" id="formulario">
+
+                <label for="txtTitulo">Titulo</label>
+                <input type="text" id="txtTitulo" placeholder="Titulo">
+                
+                <label for="txtDescripcion">Descripcion</label>
+                <input type="text" id="txtDescripcion" placeholder="Descripcion">
+
+                <label >Animal</label>
+                <div class="paraRadioBtns">
+                    Perro<input type="radio" name="tipoAnimales" id="radioPerro" value="perro">
+                    Gato<input type="radio" name="tipoAnimales" id="radioGato" value="gato">
+                </div>                
+
+                <label >Precio</label>
+                <input type="text" id="txtPrecio" placeholder="Precio">
+
+
+                <div class="ultOpcionesFormulario">
+                    <div class="divIconos"> <img class="iconos" src="./imagenes/iconoRaza.png" alt=""><input type="text" id="txtRaza" placeholder="Raza"></div>
+                    
+                    <div class="divIconos"><img class="iconos" src="./imagenes/iconoFecha.svg" alt=""> <input type="date" name="" id="dateFecha"></div>
+                    
+                    <div class="divIconos">
+                        <img src="./imagenes/iconoVacuna.png" class="iconos" alt="">
+                        <select name="" id="">
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    
+                                
+                </div>
+
+            </form>
+
+        </fieldset><br>
+        <!-- <div class="divBotonGuardar">             -->
+            <button type="button" id="btnGuardar" class="btnGuardarConIcono"><img src="./imagenes/iconoGuardar.png" alt="" class="iconos"> Guardar</button>
+        <!-- </div>         -->
+
+    </section>
+    <br>
+
+    <div id="botonesModificar">
+        <button type="button" id="btnModificar" class="botones">Modificar</button>
+        <button type="button" id="btnEliminar" class="botones">Eliminar</button>
+        <button type="button" id="btnCancelar" class="botones">Cancelar</button>
+    </div>
+    <br>
+    <section id="contenedorTabla"></section>
+
+    <br>
+    <div id="paraSpinner"></div>
+<br>
+    <footer>
+        <nav class="navFooter">
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./anuncios.html">Anuncios</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+        <p>Todos los derechos reservados &copy;</p>
+    </footer>
+
+    
+    
+</body>
+</html>

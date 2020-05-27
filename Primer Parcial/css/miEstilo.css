@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+header{
+    display: flex;
+    background-color: rgb(233, 98, 7);
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#imgHeader{
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.enlacesHeader{
+    display: flex;    
+}
+
+.navHeader{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    color: gray;
+}
+
+#imgPpal{
+    height: 150px;
+    width: 600px;
+}
+
+
+
+
+@media (max-width:900px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#fieldset{
+    width: 600px;
+}
+#formulario{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+#formulario input{
+    background-color: rgb(196, 186, 186);
+    height: 30px;
+    border-radius: 10px;
+}
+
+.paraRadioBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ultOpcionesFormulario{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.iconos{
+    height: 30px;
+}
+
+.divIconos{
+    display: flex;
+}
+
+.divBotonGuardar{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#btnGuardar{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(233, 98, 7);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    color:white;    
+}
+
+.navFooter{
+    margin-left: 80px;
+}
+footer p{
+    margin-right: 80px;
+}
+
+
+#btnEliminar{
+    background-color: rgb(219, 155, 17);
+}
+
+#btnCancelar{
+background-color: rgb(13, 13, 155);
+}
+
+#btnModificar{
+    background-color: green;
+}
+
+.botones{
+    width: 70px;
+    height: 40px;
+    margin: 5px;
+    color: white;
+}
+
+#botonesModificar{
+    display: none;
+}
+
+
+.miTabla{
+    border-collapse: collapse;
+    width: 600px;
+}
+th{
+    background-color: rgb(4, 4, 167);
+}
+td, th{
+    border: 1px solid rgb(78, 78, 214);
+    height: 30px;
+    text-align: center;
+}
+
